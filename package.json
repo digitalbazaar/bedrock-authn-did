@@ -1,0 +1,28 @@
+{
+  "name": "bedrock-authn-did",
+  "version": "0.0.1-dev",
+  "description": "An API for DID authentication",
+  "main": "./lib/did.js",
+  "scripts": {
+    "test": "node bedrock/test.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digitalbazaar/bedrock-authn-password.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-authn-password/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-authn-password",
+  "dependencies": {
+    "bedrock": "^1.0.6"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.6"
+  }
+}
