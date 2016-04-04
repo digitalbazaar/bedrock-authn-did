@@ -6,7 +6,7 @@ define(['angular'], function(angular) {
 'use strict';
 
 /* @ngInject */
-function factory(brAlertService, brAuthenticationService, config) {
+function factory(brAlertService, brDidService, config) {
   return {
     restrict: 'E',
     scope: {
@@ -35,7 +35,7 @@ function factory(brAlertService, brAuthenticationService, config) {
         if(!identity || !identity.id) {
           throw new Error('DID not provided.');
         }
-        return brAuthenticationService.login(identity);
+        return brDidService.login(identity);
       }).then(function(identity) {
         if(!identity) {
           return;
