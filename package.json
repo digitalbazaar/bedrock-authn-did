@@ -19,9 +19,6 @@
     "url": "https://github.com/digitalbazaar/bedrock-authn-password/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-authn-password",
-  "dependencies": {
-    "bedrock": "^1.0.6"
-  },
   "peerDependencies": {
     "bedrock": "^1.0.6"
   }
