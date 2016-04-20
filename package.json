@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-authn-password",
   "peerDependencies": {
-    "bedrock": "^1.0.6"
+    "bedrock": "^1.0.6",
+    "bedrock-requirejs": "^2.0.0"
   }
 }
