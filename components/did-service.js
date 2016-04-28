@@ -5,6 +5,10 @@ define([], function() {
 
 'use strict';
 
+function register(module) {
+  module.service('brDidService', factory);
+}
+
 /* @ngInject */
 function factory($http) {
   var service = {};
@@ -19,5 +23,6 @@ function factory($http) {
   return service;
 }
 
-return {brDidService: factory};
+return register;
+
 });

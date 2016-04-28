@@ -3,16 +3,17 @@
  */
 define([
   'angular',
-  './did-directive',
+  './did-component',
   './did-service'
-], function(angular, didDirective, didService) {
+], function(angular) {
 
 'use strict';
 
 var module = angular.module('bedrock.authn-did', []);
 
-module.directive(didDirective);
-module.service(didService);
+Array.prototype.slice.call(arguments, 1).forEach(function(register) {
+  register(module);
+});
 
 /* @ngInject */
 module.run(function(brAuthnService) {
