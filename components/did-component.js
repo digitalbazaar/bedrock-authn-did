@@ -42,7 +42,7 @@ function Ctrl($scope, brAlertService, brDidService, config) {
       }
       return self.callback({identity: identity});
     }).catch(function(err) {
-      brAlertService.add('error', err);
+      brAlertService.add('error', err, {scope: $scope});
     }).then(function() {
       self.loading = false;
       $scope.$apply();
