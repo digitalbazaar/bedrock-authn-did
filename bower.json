@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "bedrock-angular": "^2.0.0",
+    "bedrock-angular-authn": "^2.0.0",
     "bedrock-angular-session": "^2.0.0"
   }
 }

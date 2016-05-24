@@ -9,7 +9,7 @@ function register(module) {
   module.component('brAuthnDid', {
     bindings: {
       sysIdentifier: '@brIdentity',
-      callback: '&brCallback'
+      onLogin: '&brOnLogin'
     },
     controller: Ctrl,
     templateUrl:
@@ -40,7 +40,7 @@ function Ctrl($scope, brAlertService, brDidService, config) {
       if(!identity) {
         return;
       }
-      return self.callback({identity: identity});
+      return self.onLogin({identity: identity});
     }).catch(function(err) {
       brAlertService.add('error', err, {scope: $scope});
     }).then(function() {
