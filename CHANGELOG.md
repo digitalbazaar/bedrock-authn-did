@@ -1,10 +1,10 @@
 # bedrock-authn-did ChangeLog
 
-## [Unreleased]
+## 2.0.0 - 2106-05-24
 
-## [1.0.0] - 2016-4-28
+### Changed
+- Update to bedrock-angular-authn 2.0.0 which includes breaking API changes.
+
+## 1.0.0 - 2016-04-28
 
 - See git history for changes.
-
-[Unreleased]: https://github.com/digitalbazaar/bedrock-authn-did/compare/1.0.0...HEAD
-[1.0.0]: https://github.com/digitalbazaar/bedrock-authn-did/compare/0.0.0...1.0.0
