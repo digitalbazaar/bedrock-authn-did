@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-authn-did",
   "peerDependencies": {
-    "bedrock": "^1.0.6",
-    "bedrock-requirejs": "^2.0.0"
+    "bedrock": "^1.0.6"
   }
 }
