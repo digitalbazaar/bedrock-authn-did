@@ -1,5 +1,10 @@
 # bedrock-authn-did ChangeLog
 
+## 3.0.0 - 2016-05-25
+
+### Changed
+- Moved pseudo bower component into bedrock-angular-authn-did.
+
 ## 2.0.0 - 2106-05-24
 
 ### Changed
