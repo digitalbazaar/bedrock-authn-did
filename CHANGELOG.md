@@ -5,7 +5,7 @@
 ### Changed
 - Moved pseudo bower component into bedrock-angular-authn-did.
 
-## 2.0.0 - 2106-05-24
+## 2.0.0 - 2016-05-24
 
 ### Changed
 - Update to bedrock-angular-authn 2.0.0 which includes breaking API changes.
