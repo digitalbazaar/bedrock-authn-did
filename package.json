@@ -2,7 +2,7 @@
   "name": "bedrock-authn-did",
   "version": "3.0.1-dev",
   "description": "An API for DID authentication",
-  "main": "./lib/did.js",
+  "main": "./lib",
   "scripts": {
     "test": "node bedrock/test.js test"
   },
