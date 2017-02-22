@@ -3,9 +3,6 @@
   "version": "3.0.1-dev",
   "description": "An API for DID authentication",
   "main": "./lib",
-  "scripts": {
-    "test": "node bedrock/test.js test"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:digitalbazaar/bedrock-authn-did.git"
@@ -20,6 +17,7 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-authn-did",
   "peerDependencies": {
-    "bedrock": "^1.0.6"
+    "bedrock": "^1.0.6",
+    "bedrock-passport": "^3.2.0"
   }
 }
