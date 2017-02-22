@@ -1,5 +1,10 @@
 # bedrock-authn-did ChangeLog
 
+## 3.1.0 - 2017-02-22
+
+### Added
+- Add event listener for views vars.
+
 ## 3.0.0 - 2016-05-25
 
 ### Changed
