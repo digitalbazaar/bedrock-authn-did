@@ -1,5 +1,10 @@
 # bedrock-authn-did ChangeLog
 
+## 3.1.1 - 2017-06-02
+
+### Fixed
+- Remove `bedrock-requirejs` reference.
+
 ## 3.1.0 - 2017-02-22
 
 ### Added
